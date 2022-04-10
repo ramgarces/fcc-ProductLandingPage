@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Chess Connection</title>
+</head>
+
+<body>
+    <div id="entire-page-div">
+        <div id="title-div">
+            <header id="header">
+                <img src="./images/chess.png" id="header-img">
+                <h1 id="header-title">Chess Connection</h1>
+                <nav id="nav-bar">
+                    <ul>
+                        <li><a href="#mission-anchor" class="nav-link">Our Mission</a></li>
+                        <li><a href="#features-anchor" class="nav-link">Features</a></li>
+                        <li><a href="#video-anchor" class="nav-link">Sample Video Lesson</a></li>
+                        <li><a href="#memberships-anchor" class="nav-link">Memberships</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+        <div id="form-div">
+            <h1 id="email-title">Chess for everyone everywhere</h1>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input type="email" id="email" placeholder="Enter your email address...">
+                <input type="submit" value="Get Info" id="submit-button">
+            </form>
+        </div>
+
+        <!--I added this so that when I click on the nav link it doesn't hide half of the section because of the 
+        position: fixed; property of the nav bar-->
+        <a class="anchor" id="mission-anchor"></a>
+
+        <div id="mission-div">
+            <h2>Our Mission</h2>
+            <p id="mission-statement">Here at Chess Connection we strive to bring chess to everyone and anyone in the
+                world.
+                No matter what age or background
+                chess can be a great hobby - not to mention all the benefits it brings. Chess can help improve critical
+                thinking skills,
+                planning skills, problem solving skills, and helps with performing in tough situations. Also, it can be
+                super fun! Chess Connection does not just look to give lessons and help you play chess at a higher
+                level, we
+                want
+                you to be part of our chess community and the chess community that spans worldwide. Come by for a
+                complimentary lesson
+                or leave your email in the box above to inquire about memberships and ask questions about the features
+                listed below.
+            </p>
+        </div>
+
+        <!--I added this so that when I click on the nav link it doesn't hide half of the section because of the 
+        position: fixed; property of the nav bar-->
+        <a class="anchor" id="features-anchor"></a>
+
+        <div id="features-container">
+            <section id="features">
+
+                <div class="feature">
+                    <div class="icon">
+                        <img src="./images/online_chess_lessons.png" alt="online chess lessons icon"
+                            class="feature-image">
+                    </div>
+                    <div class="feature-description">
+                        <h3>Online Lessons</h3>
+                        <p>We have over a dozen professional chess coaches with ratings from 1800 to Grandmaster ready
+                            and
+                            willing to help you improve your game at your own pace.</p>
+                    </div>
+                </div>
+
+                <div class="feature">
+                    <div class="icon">
+                        <img src="./images/chess_tournament.png" alt="online chess lessons icon" class="feature-image">
+                    </div>
+                    <div class="feature-description">
+                        <h3>In-House Tournaments</h3>
+                        <p>Chess connection hosts in-house tournements every Friday which can be attended
+                            either in person or online - win prizes like chess sets, Chess Connection merch, and more!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="feature">
+                    <div class="icon">
+                        <img src="./images/chess_community.png" alt="online chess lessons icon" class="feature-image">
+                    </div>
+                    <div class="feature-description">
+                        <h3>Community Connections</h3>
+                        <p>By becoming a member of Chess Connection and participating in tournaments you can make
+                            connections with local and worldwide community members who share a love for chess.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!--I added this so that when I click on the nav link it doesn't hide half of the section because of the 
+        position: fixed; property of the nav bar-->
+        <a class="anchor" id="video-anchor"></a>
+
+        <div id="video-div">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/NAIQyoPcjNM"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+        <a class="anchor" id="memberships-anchor"></a>
+
+        <section id="memberships">
+
+            <div class="membership-card">
+                <div class="level">Base</div>
+                <h4>$10/mo</h4>
+                <ol>
+                    <li>Monthly Lessons</li>
+                    <li>Access to Club Equipment</li>
+                    <li class="no-benefit"> </li>
+                    <li class="no-benefit"> </li>
+                </ol>
+                <button class="btn">Select</button>
+            </div>
+
+            <div class="membership-card">
+                <div class="level">Silver</div>
+                <h4>$15/mo</h4>
+                <ol>
+                    <li>Bi-Weekly Lessons</li>
+                    <li>Access to Club Equipment</li>
+                    <li>Discounted Tournament Entry Fee</li>
+                    <li class="no-benefit"> </li>
+                </ol>
+                <button class="btn">Select</button>
+            </div>
+
+            <div class="membership-card">
+                <div class="level">Gold</div>
+                <h4>$20/mo</h4>
+                <ol>
+                    <li>Weekly Lessons</li>
+                    <li>Access to Club Equipment</li>
+                    <li>Free Tournament Entry</li>
+                    <li>Personalized Chess Set!</li>
+                </ol>
+                <button class="btn">Sign Up</button>
+            </div>
+
+        </section>
+    </div>
+
+    <footer>
+            <p>Copyright &copy; 2022 - Chess Connection</p>
+    </footer>
+
+</body>
+
+</html>
